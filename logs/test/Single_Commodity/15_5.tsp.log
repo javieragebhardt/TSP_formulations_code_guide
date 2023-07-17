@@ -1,0 +1,138 @@
+
+Gurobi 10.0.1 (mac64[x86]) logging started Mon Jul 17 20:45:18 2023
+
+Set parameter LogFile to value "logs/test/Single_Commodity/15_5.tsp.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 450 rows, 450 columns and 1400 nonzeros
+Model fingerprint: 0xe02b28cd
+Variable types: 225 continuous, 225 integer (225 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e+02, 8e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 210 rows and 44 columns
+Presolve time: 0.00s
+Presolved: 240 rows, 406 columns, 1190 nonzeros
+Variable types: 196 continuous, 210 integer (210 binary)
+
+Root relaxation: objective 2.300921e+04, 261 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 23009.2143    0   30          - 23009.2143      -     -    0s
+     0     0 23009.2143    0   30          - 23009.2143      -     -    0s
+     0     2 23104.5714    0   22          - 23104.5714      -     -    0s
+*   23    21              19    30534.000000 23282.5714  23.7%  15.7    0s
+*  175   104              23    27592.000000 23738.8571  14.0%  10.0    0s
+*  222   117              17    27211.000000 23810.8571  12.5%  10.2    0s
+*  253    90               8    25386.000000 23850.4286  6.05%   9.9    0s
+*  338    85               8    25221.000000 24166.3571  4.18%   9.9    0s
+*  339    80               7    25155.000000 24166.3571  3.93%   9.8    0s
+*  347    75              12    25072.000000 24290.0000  3.12%   9.9    0s
+*  393    38               8    24936.000000 24584.0000  1.41%   9.9    0s
+
+Explored 434 nodes (4512 simplex iterations) in 0.13 seconds (0.08 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 8: 24936 25072 25155 ... 30534
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.493600000000e+04, best bound 2.493600000000e+04, gap 0.0000%
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 450 rows, 450 columns and 1400 nonzeros
+Model fingerprint: 0xd9602c79
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e+02, 8e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 226 rows and 59 columns
+Presolve time: 0.00s
+Presolved: 224 rows, 391 columns, 1314 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2625000e+04   4.775000e+01   0.000000e+00      0s
+     262    2.3009214e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 262 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  2.300921429e+04
+Reset all parameters
+
+Gurobi 10.0.1 (mac64[x86]) logging started Mon Jul 17 21:39:49 2023
+
+Set parameter LogFile to value "logs/test/Single_Commodity/15_5.tsp.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 450 rows, 450 columns and 1400 nonzeros
+Model fingerprint: 0xe02b28cd
+Variable types: 225 continuous, 225 integer (225 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e+02, 8e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 210 rows and 44 columns
+Presolve time: 0.01s
+Presolved: 240 rows, 406 columns, 1190 nonzeros
+Variable types: 196 continuous, 210 integer (210 binary)
+
+Root relaxation: objective 2.300921e+04, 261 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 23009.2143    0   30          - 23009.2143      -     -    0s
+     0     0 23009.2143    0   30          - 23009.2143      -     -    0s
+     0     2 23104.5714    0   22          - 23104.5714      -     -    0s
+*   23    21              19    30534.000000 23282.5714  23.7%  15.7    0s
+*  175   104              23    27592.000000 23738.8571  14.0%  10.0    0s
+*  222   117              17    27211.000000 23810.8571  12.5%  10.2    0s
+*  253    90               8    25386.000000 23850.4286  6.05%   9.9    0s
+*  338    85               8    25221.000000 24166.3571  4.18%   9.9    0s
+*  339    80               7    25155.000000 24166.3571  3.93%   9.8    0s
+*  347    75              12    25072.000000 24290.0000  3.12%   9.9    0s
+*  393    38               8    24936.000000 24584.0000  1.41%   9.9    0s
+
+Explored 434 nodes (4512 simplex iterations) in 0.14 seconds (0.08 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 8: 24936 25072 25155 ... 30534
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.493600000000e+04, best bound 2.493600000000e+04, gap 0.0000%
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 450 rows, 450 columns and 1400 nonzeros
+Model fingerprint: 0xd9602c79
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e+02, 8e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 226 rows and 59 columns
+Presolve time: 0.00s
+Presolved: 224 rows, 391 columns, 1314 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2625000e+04   4.775000e+01   0.000000e+00      0s
+     262    2.3009214e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 262 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  2.300921429e+04
+Reset all parameters

@@ -1,0 +1,154 @@
+
+Gurobi 10.0.1 (mac64[x86]) logging started Mon Jul 17 20:44:48 2023
+
+Set parameter LogFile to value "logs/test/DFJ/15_2.tsp.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 32781 rows, 225 columns and 1720530 nonzeros
+Model fingerprint: 0xa39939aa
+Variable types: 0 continuous, 225 integer (225 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 7e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 0 rows and 15 columns
+Presolve time: 1.91s
+Presolved: 32781 rows, 210 columns, 1720530 nonzeros
+Variable types: 0 continuous, 210 integer (210 binary)
+Root relaxation presolved: 210 rows, 32991 columns, 1720740 nonzeros
+
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0         73    -infinity      2.4594000e+04      3s
+
+Sifting complete
+
+
+Root relaxation: objective 2.041400e+04, 102 iterations, 0.96 seconds (0.99 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    20414.000000 20414.0000  0.00%     -    2s
+
+Explored 1 nodes (102 simplex iterations) in 3.00 seconds (2.52 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 20414 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.041400000000e+04, best bound 2.041400000000e+04, gap 0.0000%
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 32781 rows, 225 columns and 1720530 nonzeros
+Model fingerprint: 0xf4f609bf
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 7e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 1 rows and 15 columns
+Presolve time: 0.88s
+Presolved: 210 rows, 32990 columns, 1720726 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          1s
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0         62    -infinity      3.0118022e+04      1s
+
+Sifting complete
+
+     101    2.0414000e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 101 iterations and 1.17 seconds (1.52 work units)
+Optimal objective  2.041400000e+04
+Reset all parameters
+
+Gurobi 10.0.1 (mac64[x86]) logging started Mon Jul 17 21:39:15 2023
+
+Set parameter LogFile to value "logs/test/DFJ/15_2.tsp.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 32781 rows, 225 columns and 1720530 nonzeros
+Model fingerprint: 0xa39939aa
+Variable types: 0 continuous, 225 integer (225 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 7e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 0 rows and 15 columns
+Presolve time: 2.60s
+Presolved: 32781 rows, 210 columns, 1720530 nonzeros
+Variable types: 0 continuous, 210 integer (210 binary)
+Root relaxation presolved: 210 rows, 32991 columns, 1720740 nonzeros
+
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0         73    -infinity      2.4594000e+04      4s
+
+Sifting complete
+
+
+Root relaxation: objective 2.041400e+04, 102 iterations, 0.97 seconds (0.99 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    20414.000000 20414.0000  0.00%     -    3s
+
+Explored 1 nodes (102 simplex iterations) in 3.70 seconds (2.52 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 20414 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.041400000000e+04, best bound 2.041400000000e+04, gap 0.0000%
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 32781 rows, 225 columns and 1720530 nonzeros
+Model fingerprint: 0xf4f609bf
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 7e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 1 rows and 15 columns
+Presolve time: 1.09s
+Presolved: 210 rows, 32990 columns, 1720726 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          1s
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0         62    -infinity      3.0118022e+04      1s
+
+Sifting complete
+
+     101    2.0414000e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 101 iterations and 1.35 seconds (1.52 work units)
+Optimal objective  2.041400000e+04
+Reset all parameters

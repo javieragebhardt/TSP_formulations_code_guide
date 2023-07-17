@@ -1,0 +1,130 @@
+
+Gurobi 10.0.1 (mac64[x86]) logging started Mon Jul 17 20:44:38 2023
+
+Set parameter LogFile to value "logs/test/MTZ/10_4.tsp.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 310 rows, 110 columns and 774 nonzeros
+Model fingerprint: 0x56fcbd82
+Variable types: 10 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+00]
+  Objective range  [8e+02, 7e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 9e+00]
+Presolve removed 218 rows and 11 columns
+Presolve time: 0.00s
+Presolved: 92 rows, 99 columns, 795 nonzeros
+Variable types: 9 continuous, 90 integer (90 binary)
+
+Root relaxation: objective 1.625531e+04, 25 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 16255.3056    0   11          - 16255.3056      -     -    0s
+     0     0 16255.3056    0   11          - 16255.3056      -     -    0s
+     0     2 16274.7500    0   11          - 16274.7500      -     -    0s
+*   28    25              24    25296.000000 16685.1875  34.0%   4.1    0s
+*   54    38              17    23715.000000 16703.2969  29.6%   4.2    0s
+*   79    43              23    21671.000000 17679.1250  18.4%   4.3    0s
+*  104    40               9    20160.000000 17787.7500  11.8%   4.3    0s
+
+Explored 343 nodes (1569 simplex iterations) in 0.05 seconds (0.02 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 4: 20160 21671 23715 25296 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.016000000000e+04, best bound 2.016000000000e+04, gap 0.0000%
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 310 rows, 110 columns and 774 nonzeros
+Model fingerprint: 0x761f7325
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+00]
+  Objective range  [8e+02, 7e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 9e+00]
+Presolve removed 219 rows and 11 columns
+Presolve time: 0.00s
+Presolved: 91 rows, 99 columns, 387 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.4221000e+04   7.125000e+00   0.000000e+00      0s
+      14    1.6249000e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 14 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.624900000e+04
+Reset all parameters
+
+Gurobi 10.0.1 (mac64[x86]) logging started Mon Jul 17 21:39:04 2023
+
+Set parameter LogFile to value "logs/test/MTZ/10_4.tsp.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 310 rows, 110 columns and 774 nonzeros
+Model fingerprint: 0x56fcbd82
+Variable types: 10 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+00]
+  Objective range  [8e+02, 7e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 9e+00]
+Presolve removed 218 rows and 11 columns
+Presolve time: 0.00s
+Presolved: 92 rows, 99 columns, 795 nonzeros
+Variable types: 9 continuous, 90 integer (90 binary)
+
+Root relaxation: objective 1.625531e+04, 25 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 16255.3056    0   11          - 16255.3056      -     -    0s
+     0     0 16255.3056    0   11          - 16255.3056      -     -    0s
+     0     2 16274.7500    0   11          - 16274.7500      -     -    0s
+*   28    25              24    25296.000000 16685.1875  34.0%   4.1    0s
+*   54    38              17    23715.000000 16703.2969  29.6%   4.2    0s
+*   79    43              23    21671.000000 17679.1250  18.4%   4.3    0s
+*  104    40               9    20160.000000 17787.7500  11.8%   4.3    0s
+
+Explored 343 nodes (1569 simplex iterations) in 0.06 seconds (0.02 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 4: 20160 21671 23715 25296 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.016000000000e+04, best bound 2.016000000000e+04, gap 0.0000%
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 310 rows, 110 columns and 774 nonzeros
+Model fingerprint: 0x761f7325
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+00]
+  Objective range  [8e+02, 7e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 9e+00]
+Presolve removed 219 rows and 11 columns
+Presolve time: 0.00s
+Presolved: 91 rows, 99 columns, 387 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.4221000e+04   7.125000e+00   0.000000e+00      0s
+      14    1.6249000e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 14 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.624900000e+04
+Reset all parameters
