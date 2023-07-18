@@ -5,4 +5,5 @@ In each file you'll find an explanation of each function and parameters to chang
 - ```generate_instance.py``` file containing a function that generates random instances for a certain number of nodes.
 - ```process_data.py```: file that processes data obtained by the Solver class. It contains different functions, each one explained in the file itself.
 - ```main.py```: Example code of how to use the functions. It exemplifies how to generate instances, solve problems, and process results.
+- ```logs```, ```ìnstances``` and ```graphs``` example files of how to  
   
