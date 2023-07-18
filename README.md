@@ -9,4 +9,4 @@ In each file you'll find an explanation of each function and parameters to chang
 - ```ìnstances```: folder that stores random generated instances.
 - ```graphs```: folder that stores the graphs made.
 - ```results_no_relaxed.txt```: example of output thrown when solving a problem
-- ``results_no_relaxed.txt```: example of output thrown when solving a problem (relaxation)
+- ```results_no_relaxed.txt```: example of output thrown when solving a problem (relaxation)
