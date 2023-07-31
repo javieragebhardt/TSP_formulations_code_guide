@@ -4,7 +4,7 @@ import random
 
 def generate_tsp_file(filename, num_nodes):
     # generates a random instance of a TSP problem in TSPLIB format
-    # reveives:
+    # receives:
     # (1) filename: name of the file to be generated
     # (2) num_nodes: number of nodes of the problem
     with open(filename, 'w') as file:

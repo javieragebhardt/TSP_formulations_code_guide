@@ -1,5 +1,5 @@
 # file that exemplifies the use of the code
-# IMPORTANT: You must install tsplib95 amd gurobi to use this code
+# IMPORTANT: You must install tsplib95 and gurobi to use this code
 
 from formulations import DFJ, MTZ, Single_Commodity, Multi_Commodity, Log_Lex  # add formulations here if necessary
 from tsplib95 import load
